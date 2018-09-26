@@ -19,7 +19,7 @@ from pyproj import Proj
 #The interpolation could be done with scipy interp,
 #Basemap interp or xarray interp
 #choosing to use xesmf cause saves weights, needs pip install 
-import xesmf as xe #pip install / conda pip install
+import xesmf as xe #pip install 
 from pyproj import Proj
 
 #import cProfile # if you want to print run time of script
@@ -30,7 +30,6 @@ import matplotlib.pyplot as plt
 
 datadir="data/"
 EIpath=datadir+'ERAI/'
-#savedir='/lustre/storeB/users/helenebe/HySN/'
 savedir=datadir+"HySN/"
 
 startyr=1981
